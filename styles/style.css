@@ -7,6 +7,59 @@
   padding: 0;
 }
 
-h1 {
-  font-family: "Work Sans", serif;
+/* Banner Section Style added */
+#banner {
+  background-color: antiquewhite;
+  height: 615px;
+  background-image: linear-gradient(
+      00deg,
+      rgb(16, 16, 16) -19.5%,
+      rgba(16, 16, 16, 0) 100%
+    ),
+    url(../assets/images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner .banner-content {
+  width: 685px;
+}
+
+#banner .banner-content .subtitle {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0%;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: Work Sans;
+  opacity: 0.8;
+}
+
+#banner .banner-content .title {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 0%;
+  margin-bottom: 14px;
+  text-align: center;
+  font-family: Work Sans;
+}
+
+#banner .banner-content .description {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  margin-bottom: 24px;
+  text-align: center;
+  font-family: Work Sans;
+  opacity: 0.7;
 }
