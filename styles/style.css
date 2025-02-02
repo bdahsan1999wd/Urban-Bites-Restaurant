@@ -1,3 +1,12 @@
+/* Google fonts added using @import */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+/*  font-family: "Work Sans", serif; */
+
 * {
-  background-color: burlywood;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Work Sans", serif;
 }
