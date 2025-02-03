@@ -301,6 +301,7 @@
   background-position: center;
   background-repeat: no-repeat;
   font-family: Work Sans;
+  background-size: cover;
 }
 
 .social-content h2 {
@@ -333,4 +334,21 @@
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+/* footer style added */
+#footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 25px;
+  color: #333333;
+  font-size: 20px;
+  font-family: Work Sans;
+  border-top: 2px solid #dddddd;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#footer p {
+  margin: 0;
+  font-weight: 500;
 }
