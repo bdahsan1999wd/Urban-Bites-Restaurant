@@ -269,3 +269,17 @@
   color: #ff0033;
   font-size: 70px;
 }
+
+/* -----Zoom Effect----- */
+
+/* .social-links a:hover {
+  transform: scale(1.5);
+  transition: 0.5s ease-in-out;
+} */
+
+/* -----Rotate Effect----- */
+
+.social-links a:hover {
+  transform: rotate(360deg);
+  transition: 1s ease;
+}
