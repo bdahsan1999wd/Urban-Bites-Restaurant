@@ -164,7 +164,6 @@
 /* About Us Section Style added */
 
 #about-us {
-  background-color: aquamarine;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -219,4 +218,54 @@
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+/* Social media logo style added */
+
+.social-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+}
+
+.social-links {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.fa-facebook {
+  color: #0866ff;
+  font-size: 70px;
+}
+
+.fa-instagram {
+  color: #be02df;
+  font-size: 70px;
+}
+
+.fa-github {
+  color: #171515;
+  font-size: 70px;
+}
+
+.fa-linkedin {
+  color: #0077b5;
+  font-size: 70px;
+}
+
+.fa-x-twitter {
+  color: #1d1d1d;
+  font-size: 70px;
+}
+
+.fa-youtube {
+  color: #ff0033;
+  font-size: 70px;
 }
