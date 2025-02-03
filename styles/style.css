@@ -84,3 +84,32 @@
 .btn-container {
   text-align: center;
 }
+
+/* Card Box Section Style added */
+#card-box {
+  background-color: antiquewhite;
+  width: 1400px;
+  margin: 100px auto;
+}
+
+#card-box .subtitle {
+  font-size: 18px;
+  text-align: center;
+  line-height: 28px;
+  font-weight: 500;
+  font-family: Work Sans;
+  letter-spacing: 0%;
+  color: rgb(16, 16, 16);
+  opacity: 0.6;
+}
+
+#card-box .title {
+  font-size: 40px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 600;
+  font-family: Work Sans;
+  letter-spacing: 0%;
+  color: rgb(16, 16, 16);
+  opacity: 0.6;
+}
