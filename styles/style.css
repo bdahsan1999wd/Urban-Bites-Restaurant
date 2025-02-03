@@ -121,6 +121,9 @@
 .card-container {
   background-color: cadetblue;
   margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Work Sans;
 }
 
 .card {
@@ -146,4 +149,9 @@
   padding: 14px 32px 14px 32px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+.card p span {
+  display: block;
+  text-align: center;
 }
